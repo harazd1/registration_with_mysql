@@ -1,0 +1,57 @@
+.subscribe-container{
+  text-align: center;
+}
+
+input[type="text"],
+input[type="password"] {
+  border: 2px solid grey;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  outline: none;
+  border-color: gray;
+}
+
+.btn {
+  background-color: grey;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+
+.btn:hover {
+  background-color: black;
+}
+
+.main_form{
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+.login_message{
+  text-align: center;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 10px;
+  color: white;
+  margin: 0 auto;
+}
+
+.success{
+  background-color: green;
+}
+
+.error{
+  background-color: red;
+}
